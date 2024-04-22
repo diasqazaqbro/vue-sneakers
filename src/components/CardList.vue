@@ -1,16 +1,7 @@
-<script setup lang="ts">
-import { PropType } from 'vue'
+<script setup>
 import Card from './Card.vue'
-
-interface Item {
-  id: number
-  title: string
-  price: number
-  imageUrl: string
-}
-
 const props = defineProps({
-  items: Array as PropType<Item[]>
+  items: Array
 })
 </script>
 

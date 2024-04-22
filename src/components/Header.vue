@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { inject } from 'vue'
 
 const showDrawer = inject('showDrawer')
